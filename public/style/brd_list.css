@@ -1,0 +1,17 @@
+ul,ol,li {list-style:none; font-size:20px;}
+a { text-decoration:none; color:blue; font-size:20px;}
+.list_area {padding:200px 0;}
+.list_area .brd_flex {display:flex; justify-content:center;}
+.list_area .brd_flex .brd {width:1200px; height:100px;}
+.list_area .brd_flex .brd .title {color:rgb(60, 161, 60); font-size:30px; font-weight:bold; text-align:center; margin:30px 0;}
+#searchForm {display:flex; justify-content:flex-end;}
+.search_size #inputText {height:20px;}
+.search_size #searchBtn {font-size:20px;}
+
+.listWrap { width:1200px; margin:0 auto;}
+.lists {width:100%; height:200px; border:1px solid #000; margin: 50px 0;}
+
+.paging {display:flex; justify-content:center; margin:50px 0;}
+.paging li {margin: 0 20px;}
+.highlight a { color: red;}
+.go_board {display:flex; justify-content:center;}

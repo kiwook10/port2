@@ -1,0 +1,14 @@
+ul,ol,li {list-style:none; }
+a { text-decoration:none;}
+.insert {padding:200px 0; display:flex; justify-content:center;}
+#upload { width:1200px; display:flex; justify-content:space-between; flex-wrap:wrap;}
+#upload > div{width:100%;}
+#upload .in_area {display:flex; justify-content:space-between;}
+#upload .in_area > input {height:30px; margin:50px 0;}
+#upload .in_area > input:nth-child(1) {width:800px;}
+#upload .in_area > input:nth-child(2) {width:350px;}
+#upload .text_area .text {width:1200px; height:500px; margin-bottom:50px;}
+#upload .btn_area {display:flex; justify-content:center;}
+#upload .btn_area #submit {width:100px; height:50px; border:none; background-color:#000; color:#fff; cursor:pointer;}
+.big_text {display:flex; justify-content:center;}
+.big_text > h2{font-size:30px; font-weight:bold;}

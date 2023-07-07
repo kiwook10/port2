@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글 등록페이지</title>
+</head>
+<body>
+    <%- include("header",{title:"",hClass:"",css:["style.css","brd_insert.css","m_style.css"]}) %>
+    <div class="insert">
+        <form id="upload" action="/dbupload" method="post">
+            <div class="big_text">
+                <h2>게시글 등록</h2>
+            </div>
+            <div class="in_area">
+                <input class="title" type="" name="title" placeholder="제목을 입력하세요." required>
+                <input class="author" type="text" name="author" placeholder="작성자명" required>
+            </div>
+            <div class="text_area">
+                <textarea class="text" name="content" placeholder="내용을 입력하세요." required></textarea>
+            </div>
+            <div class="btn_area">
+                <button id="submit" type="submit">게시글 등록완료</button>
+            </div>
+        </form>
+    </div>
+    <%- include("footer") %>
+</body>
+</html>

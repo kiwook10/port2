@@ -1,0 +1,9 @@
+.mid_area {padding:300px 0; display:flex; justify-content:center; background-color:#dbf2ff;}
+.mid_area .center {display:flex; justify-content:space-between; width:1200px;}
+.left .title_area .title {font-size:40px; margin:30px 0;}
+.left .title_area .sub_title {font-size:30px;}
+.left .title_area .sub_title span {font-weight:bold;}
+.text1{margin:50px 0; font-size:20px;}
+.text2{font-size:20px;}
+.right {height:600px;}
+.right > img {height:100%;}
